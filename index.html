@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+    
+    <script
+      src="https://kit.fontawesome.com/3f167df4c7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--====== navbar ======-->
+    <nav>
+      <div class="logo">
+        <h1>MK</h1>
+      </div>
+      <div class="menubar" onclick="myFunction()"> 
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul id="list">
+        <a href="#"><li>Home</li></a>
+        <a href="#about_container"><li>About</li></a>
+        <a href="#skills_container"><li>Skills</li></a>
+        <a href="#service_container"><li>Service</li></a>
+        <a href="#qualification_container"><li>Qualification</li></a>
+        <a href="#projects_container"><li>Projects</li></a>
+        <a href="#contact_container"><li>Contact me</li></a>
+      </ul>
+    </nav>
+
+    <div class="gototop">
+      <button id="to_btn" onclick="toButton()"><i class="fa-solid fa-angles-up"></i></button>
+    </div>
+
+    <!--====== home ======-->
+    <section class="home-container"> 
+      <div class="home_img">
+        <div class="home-media">
+          <p>
+            <a href="https://github.com/Madhurjya216" target="_blank"
+              ><img
+                class="media_icon"
+                src="./images/github (1).png"
+                alt="github"
+            /></a>
+          </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/madhurjya-kashyap-8a107224a/"
+              target="_blank"
+              ><img
+                class="media_icon"
+                src="./images/linkedin (1).png"
+                alt="linkedin"
+            /></a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/Madhurjya215/" target="_blank"
+              ><img
+                class="media_icon"
+                src="./images/instagram.png"
+                alt="instagram"
+            /></a>
+          </p>
+        </div>
+        <img
+          class="myimage"
+          src="https://media.licdn.com/dms/image/C5603AQGGMpr_cGHrpg/profile-displayphoto-shrink_400_400/0/1661496256379?e=1689811200&v=beta&t=IQdL6SKf84GJxmpinyX8poj3ISXp5xDp04Ng1dn5IJA"
+          alt="photo"
+        />
+      </div>
+      <div class="home_info">
+        <h5>Hey! I'm Madhurjya kashyap</h5>
+        <h2>I'm a <span class="auto-type"></span></h2>
+        <p id="para">
+          Having good Skills set, Experience and Knowledge to Produce Quality
+          work.
+        </p>
+        <a href="./images/Resume.pdf" target="_blank" download="myResume"
+          ><button class="home_btn">
+            Download Resume <i class="fa-solid fa-file-arrow-down"></i></button
+        ></a>
+      </div>
+    </section>
+
+    <!--====== about ======-->
+    <section id="about_container">
+      <div class="about_heading">
+        <h2>About me</h2>
+        <p id="support_para">My Introduction</p>
+      </div>
+
+      <div class="about_content">
+        <div class="about_info">
+          <p id="about-para">
+            I am Madhurjya Kashyap specializes in designing, building, and
+            maintaining websites and web applications and also specializes in
+            Full-Stack Development, which involves working on both the front-end
+            and back-end of a website.
+          </p>
+          <div class="about_info2">
+            <div>
+              <p id="mark">05+</p>
+              <p id="mark2">Project Contribution</p>
+            </div>
+            <div>
+              <p id="mark">15+</p>
+              <p id="mark2">Completed Projects</p>
+            </div>
+          </div>
+          <a href="./images/Resume.pdf" target="_blank" class="btn" download="myResume"
+            ><button class="home_btn">
+              Download Resume
+              <i class="fa-solid fa-file-arrow-down"></i></button
+          ></a>
+        </div>
+        <div class="about_img">
+          <img src="./images/Hello-rafiki.png" alt="photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- =========== skills ========== -->
+    <div class="bg">
+      <section id="skills_container">
+        <div>
+          <h2 class="skill_heading">Skills</h2>
+          <p id="support_para">Some of my Skill sets</p>
+        </div>
+
+        <div class="accordion-container">
+          <!-- ACCORDION-1 -->
+          <div class="accordion-tab">
+            <input type="checkbox" id="accordion-1" name="toggle" />
+            <label for="accordion-1"
+              ><i class="fa-solid fa-code skill_icon"></i> Front-end
+              Skills</label
+            >
+            <div class="accordion-content">
+              <div class="skill-contain">
+                <div><i class="fa-brands fa-html5 skill-icons"></i> HTML</div>
+                <div><i class="fa-brands fa-css3-alt skill-icons"></i> CSS</div>
+                <div>
+                  <i class="fa-brands fa-square-js skill-icons"></i> JAVASCRIPT
+                </div>
+                <div>
+                  <i class="fa-brands fa-bootstrap skill-icons"></i> BOOTSTRAP
+                </div>
+                <div><i class="fa-brands fa-react skill-icons"></i> REACT</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ACCORDION-2 -->
+          <div class="accordion-tab">
+            <input type="checkbox" id="accordion-2" name="toCSS" />
+            <label for="accordion-2"
+              ><i class="fa-solid fa-database skill_icon"></i> Back-end
+              Skills</label
+            >
+            <div class="accordion-content">
+              <div class="skill-contain">
+                <div>
+                  <i class="fa-solid fa-server skill-icons"></i> MONGODB
+                </div>
+                <div>
+                  <i class="fa-brands fa-node-js skill-icons"></i> NODE JS
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ACCORDION-3 -->
+          <div class="accordion-tab">
+            <input type="checkbox" id="accordion-3" name="toggle" />
+            <label for="accordion-3"
+              ><i class="fa-solid fa-palette skill_icon"></i> Designing</label
+            >
+            <div class="accordion-content">
+              <div class="skill-contain">
+                <div><i class="fa-brands fa-figma skill-icons"></i> FIGMA</div>
+                <div>
+                  <i class="fa-solid fa-images skill-icons"></i> PHOTOSHOP
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ services ============ -->
+      <div id="service_container">
+        <div class="service_heading">
+          <h2>Services</h2>
+          <p id="support_para">What I Offer</p>
+        </div>
+        <div class="service_contents">
+          <div class="service_content1">
+            <i class="fa-solid fa-paintbrush service-icons"></i>
+            <h4>UI/UX Designing</h4>
+          </div>
+
+          <div class="service_content1 content2">
+            <i class="fa-solid fa-code service-icons"></i>
+            <h4>Web Development</h4>
+          </div>
+
+          <div class="service_content1 content3">
+            <i class="fa-solid fa-pen-ruler service-icons"></i>
+            <h4>Logo Designing</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- ========= qualification ========= -->
+      <section id="qualification_container">
+        <div class="quality_heading">
+          <h2>Qualification</h2>
+          <p id="support_para">Education & Experience Journey</p>
+        </div>
+        <div class="quality_icons">
+          <div>
+            <i class="fa-solid fa-school swicth_icons"></i>
+            <p>Education</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-briefcase swicth_icons"></i>
+            <p>Experience</p>
+          </div>
+        </div>
+
+        <div class="quality_contain">
+          <div class="quality_edu">
+            <div class="edu_content edu1">
+              <h4>H.S Second Year</h4>
+              <p>VKV - Nalbari</p>
+              <p>2020 - 2023</p>
+            </div>
+
+            <div class="edu_content edu2">
+              <h4>BCA Bacelor of Computer Application</h4>
+              <p>Nalbari College</p>
+              <p>2023 - 2025</p>
+            </div>
+          </div>
+          <div class="quality_line">
+            <div class="edu_circle"></div>
+            <i class="fa-solid fa-school quality_line-icons"></i>
+            <i class="fa-solid fa-briefcase quality_line-icons2"></i>
+            <i class="fa-solid fa-school quality_line-icons3"></i>
+            <div class="edu_circle"></div>
+          </div>
+          <div class="quality_ex">
+            <div class="edu_content1">
+              <h4>Full Stack Web Development Intern</h4>
+              <p>Edureka</p>
+              <p>2022 - 2023</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ================ projects ================== -->
+    <section id="projects_container">
+      <div class="project_heading">
+        <h2>Projects</h2>
+        <p id="support_para">Some demo of my Work</p>
+      </div>
+    <div class="project_content">
+      <div class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div>
+              <img
+                src="./images/Online Groceries-cuate.png"
+                alt="Image 3"
+              />
+            </div>
+            <div class="project_content">
+              <h2>GROMO Grocery Website</h2>
+              <p>
+                MERN stack project build using Mongodb, Express, React, Node js, Html, Css. This website provides register/login, add to cart, placing order, filtering products functionalities etc..
+              </p>
+              <a href="https://gromo-grocery.netlify.app"><button>Live View</button></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <img
+                src="./images/Image post-amico.png"
+                alt="Image 3"
+              />
+            </div>
+            <div class="project_content">
+              <h2>ImagePicker website</h2>
+              <p>
+                MERN project using - Monogodb, Express, React, Node js. Which allows to pick and download any listed images, and filter out category wise. 
+              </p>
+              <a href="https://rainbow-yeot-ff10e0.netlify.app"><button>Live View</button></a>
+            </div>
+          </div>
+          <div class="carousel-item"> 
+            <div>
+              <img
+                src="./images/Weather-cuate.png"
+                alt="Image 3"
+              />
+            </div>
+            <div class="project_content">
+              <h2>Weather App</h2>
+              <p>
+                Weather app build by using Html, Css, Javascript. Which show the Temperature, Humidity, Wind speed stc...
+              </p>
+              <a href="https://weathertracker-app.netlify.app"><button>Live View</button></a>
+            </div>
+          </div>
+          <div class="carousel-item"> 
+            <div>
+              <img
+                src="./images/Movie Night-pana.png"
+                alt="Image 3"
+              />
+            </div>
+            <div class="project_content">
+              <h2>Netflix Home page</h2>
+              <p>
+                This is the UI design of the Netflix HOme page build using Html and Css.
+              </p>
+              <a href="https://netflixx-ui-page.netlify.app/"><button>Live View</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="carousel-controls">
+        <button onclick="prevSlide()"><i class="fa-solid fa-chevron-left controls"></i></button>
+        <button onclick="nextSlide()"><i class="fa-solid fa-chevron-right controls"></i></button>
+      </div>
+    </section>
+
+    <!-- ================ Hire me ================== -->
+    <section class="hire_me">
+      <div class="hire_flex">
+        <div class="hire_info">
+          <h2>Having a new Project</h2>
+          <p>Hire me now!</p>
+          <a href="#contact_container"
+            ><button>Contact me <i class="fa-solid fa-angles-right"></i></button
+          ></a>
+        </div>
+        <div class="hire_img">
+          <img src="./images/Business deal-pana.png" alt="image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================ contact me ================== -->
+    <section id="contact_container">
+      <div class="contact_heading">
+        <h3>Contact me</h3>
+        <p id="support_para">Connect with me</p>
+      </div>
+      <div class="contact_me">
+        <div class="contact_thro">
+          <div class="contact_icon">
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+          <div class="contact_info">
+            <p id="contact-para">Call me</p>
+            <p>+91 9864631469</p>
+          </div>
+        </div>
+        <div class="contact_thro">
+          <div class="contact_icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact_info">
+            <p id="contact-para">Email me</p>
+            <p>madhurjyakashyap216@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact_thro">
+          <div class="contact_icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="contact_info">
+            <p id="contact-para">Location</p>
+            <p>Nalbari, Assam, India</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact_content">
+        <div class="contact_img">
+          <img src="./images/Online world-amico.png" alt="" />
+        </div>
+        <div class="contact_inputs">
+          <form action="mailto:madhurjyakashyap216@gmail.com" method="post" enctype="text/plain">
+            <div class="input-flex">
+              <input type="text" name="name" placeholder="Name" required />
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+            <div class="input-rest">
+              <input type="text" name="project" placeholder="Project" required />
+            </div>
+            <div class="input-rest">
+              <textarea
+                name="msg"
+                cols="30"
+                rows="10"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <div class="contact_btn">
+              <input id="form-btn" type="submit" value="Send">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer_logo">
+        <h1>MK</h1>
+      </div>
+      <div class="footer_info">
+        <h4>Personal website developed by <span>Madhurjya kashyap</span></h4>
+        <p>&copy; 2023 | Portfolio website</p>
+      </div>
+      <div class="footer_media">
+        <a href="https://github.com/Madhurjya216"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/madhurjyakashyap215/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://codepen.io/raj98"><i class="fa-brands fa-codepen"></i></a>
+        <a href="https://www.linkedin.com/in/madhurjya-kashyap-8a107224a/"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Web Developer", "Web Designer", "UI/UX Designer"],
+        typeSpeed: 200,
+        backSpeed: 200,
+        looped: true,
+      });
+
+      // =========== Project section ============ //
+
+      const carouselInner = document.querySelector(".carousel-inner");
+      const carouselItems = document.querySelectorAll(".carousel-item");
+      let currentIndex = 0;
+
+      function showSlide(index) {
+        carouselInner.style.transform = `translateX(-${index * 100}%)`;
+      }
+
+      function nextSlide() {
+        currentIndex = (currentIndex + 1) % carouselItems.length;
+        showSlide(currentIndex);
+      }
+
+      function prevSlide() {
+        currentIndex =
+          (currentIndex - 1 + carouselItems.length) % carouselItems.length;
+        showSlide(currentIndex);
+      }
+    </script>
+  </body>
+</html>

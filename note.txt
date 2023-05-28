@@ -1,0 +1,36 @@
+ <!-- <div class="project_corousel">
+        <div class="corousel_content">
+          <div class="corousel_item">
+            <div class="project_img">
+              <img src="https://img.freepik.com/free-vector/weather-concept-illustration_114360-7370.jpg?size=626&ext=jpg&ga=GA1.1.1145224334.1665120416&semt=ais" alt="">
+            </div>
+            <div class="project_content">
+              <h4>Modern Website</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, impedit?</p>
+              <a href="#"><button>Live View</button></a>
+            </div>
+          </div>
+
+          <div class="corousel_item">
+            <div class="project_img">
+              <img src="https://img.freepik.com/free-vector/weather-concept-illustration_114360-7370.jpg?size=626&ext=jpg&ga=GA1.1.1145224334.1665120416&semt=ais" alt="">
+            </div>
+            <div class="project_content">
+              <h4>Modern Website</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, impedit?</p>
+              <a href="#"><button>Live View</button></a>
+            </div>
+          </div>
+
+          <div class="corousel_item">
+            <div class="project_img">
+              <img src="https://img.freepik.com/free-vector/weather-concept-illustration_114360-7370.jpg?size=626&ext=jpg&ga=GA1.1.1145224334.1665120416&semt=ais" alt="">
+            </div>
+            <div class="project_content">
+              <h4>Modern Website</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, impedit?</p>
+              <a href="#"><button>Live View</button></a>
+            </div>
+          </div>
+        </div>
+      </div> -->
